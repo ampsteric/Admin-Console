@@ -5,8 +5,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-size: 16px;
+    text-align: center;
+    background-color: #edf0f5;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+}
+
+/*Footer */
+
+.footer {
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.footer .card {
+    padding: 20px;
+    margin: auto 10px;
+    grid-column: span 2;
+    box-shadow: 3px 3px 3px 2px #888888;
+}
+
+.card .card-content {
+    background-color: aquamarine;
+}
+
+.card-para {
+    border-bottom: 1.5px solid #ffffff;
+    padding: 5px;
 }
