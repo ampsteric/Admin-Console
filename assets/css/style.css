@@ -1,244 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.diseases {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  width: 100px;
+}
+.medication {
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  width: 100px;
+}
+.diseases-table {
+  display: flex;
+}
+.diseases-name {
+  margin-right: 30px;
 }
 .blue-back {
-    background-color: #b9d4f0;
-    margin-top: 10px;
-    font-size: 20px;
+  background-color: #b9d4f0;
+  margin-top: 10px;
+  font-size: 20px;
 }
 .danger {
-    color: red;
+  color: red;
 }
 .left-margin {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .primary-color {
-    color: #5da1e8;
+  color: #5da1e8;
 }
 body {
-    background-color: #edf0f5;
-    /* color: #5da1e8; */
+  background-color: #edf0f5;
+  /* color: #5da1e8; */
 }
 .display img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .container {
-    background-color: white;
-    display: flex;
-    box-sizing: border-box;
-    padding-left: 500px;
-    margin-right: 10px;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 500px;
+  margin-right: 10px;
 }
 .text {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .text span {
-    font-size: 30px;
+  font-size: 30px;
 }
 .display img {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 .icons img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 #tick {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 .event img {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 body {
-    font-size: 16px;
-    text-align: center;
-    background-color: #edf0f5;
+  font-size: 16px;
+  text-align: center;
+  background-color: #edf0f5;
 }
 .check-stats {
-    display: flex;
-    box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
-    margin-bottom: 10px;
+  display: flex;
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  margin-bottom: 10px;
 }
 .stats-col {
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
 }
 .stats-row {
-    display: flex;
-    margin: 20px 10px;
-    font-size: 20px;
+  display: flex;
+  margin: 20px 10px;
+  font-size: 20px;
 }
 .stats-row img {
-    height: 20px;
-    width: 20px;
-    margin-left: 10px;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
 }
 .grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
 }
 .name {
-    color: rgb(93, 161, 232);
-    font-size: 20px;
-    text-align: left;
+  color: rgb(93, 161, 232);
+  font-size: 20px;
+  text-align: left;
 }
 .header p {
-    background-color: white;
-    margin: 0;
+  background-color: white;
+  margin: 0;
 }
 .info {
-    background-color: white;
+  background-color: white;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    box-sizing: border-box;
-    background-color: white;
-    margin: 20px 80px;
-    box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
-    display: flex;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 20px 80px;
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  display: flex;
 }
 span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .general {
-    background-color: white;
+  background-color: white;
 
-    padding: 10px;
-    height: 80px;
-    width: 100px;
-    box-shadow: 3px 3px 3px rgba(204, 196, 196, 0.87);
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
+  padding: 10px;
+  height: 80px;
+  width: 100px;
+  box-shadow: 3px 3px 3px rgba(204, 196, 196, 0.87);
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
 /* Middle Content And Side Nav Bar*/
 .main {
-    width: 90%;
-    margin: 10px auto;
+  width: 90%;
+  margin: 10px auto;
 }
 .information {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 .last-checkup {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .event {
-    display: flex;
+  display: flex;
 }
 
 .information,
 .doc-info,
 .last-checkup,
 .allergies {
-    text-align: justify;
-    grid-column: 1;
-    background-color: #ffffff;
-    padding: 10px;
+  text-align: justify;
+  grid-column: 1;
+  background-color: #ffffff;
+  padding: 10px;
 }
 .information span,
 .doc-info span,
 .last-checkup span,
 .allergies span {
-    text-align: left;
-    margin-right: 10px;
+  text-align: left;
+  margin-right: 10px;
 }
 
 .main-content {
-    grid-row: 1/5;
-    grid-column: 2/7;
-    background-color: #ffffff;
-    width: 100%;
-    padding: 10px;
+  grid-row: 1/5;
+  grid-column: 2/7;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
 }
 .check-stats,
 .appointments,
 .reports,
 .immunization {
-    width: 90%;
-    margin: 10px auto;
+  width: 90%;
+  margin: 10px auto;
 }
 .dis-med {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .appointments {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
 }
 .upcoming {
-    display: flex;
-    margin: 40px 80px;
+  display: flex;
+  margin: 40px 80px;
 }
 .upcoming img {
-    height: 200px;
-    width: 200px;
-    margin-left: 500px;
-    margin-top: 0px;
+  height: 200px;
+  width: 200px;
+  margin-left: 500px;
+  margin-top: 0px;
 }
 .diseases {
-    width: 60%;
+  width: 60%;
 }
 .medication {
-    width: 40%;
+  width: 40%;
 }
 .msg-dev {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .messages {
-    width: 50%;
+  width: 50%;
 }
 .devices {
-    width: 50%;
+  width: 50%;
 }
 /*Footer */
 
 .footer {
-    text-align: left;
-    width: 90%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
+  text-align: left;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 .footer .card {
-    padding: 20px;
-    margin: auto 10px;
-    grid-column: span 2;
-    box-shadow: 3px 3px 3px 2px #888888;
+  padding: 20px;
+  margin: auto 10px;
+  grid-column: span 2;
+  box-shadow: 3px 3px 3px 2px #888888;
 }
 
 .card .card-heading {
-    padding: 10px;
-    margin: 1px;
-    background-color: rgb(225, 247, 247);
+  padding: 10px;
+  margin: 1px;
+  background-color: rgb(225, 247, 247);
 }
 .card-head {
-    margin: 5px;
+  margin: 5px;
 }
 .card-para {
-    color: black;
-    padding: 1px;
+  color: black;
+  padding: 1px;
 }
 
 .card-desc {
-    padding: 10px;
+  padding: 10px;
 }
 
 .last .first {
-    margin-bottom: 1000px;
-    padding: 20px;
+  margin-bottom: 1000px;
+  padding: 20px;
 }
