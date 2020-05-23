@@ -42,6 +42,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
 }
 .name {
     color: rgb(93, 161, 232);
@@ -68,15 +69,7 @@ body {
 span {
     font-weight: 700;
 }
-.details {
-  background-color: white;
-  padding: 10px;
-  height: 300px;
-  width: 250px;
-  box-shadow: 3px 3px 3px rgba(204, 196, 196, 0.87);
-  display: flex;
-  flex-direction: column;
-}
+
 .general {
     background-color: white;
 
@@ -88,7 +81,51 @@ span {
     display: flex;
     flex-direction: column;
 }
+/* Middle Content And Side Nav Bar*/
+.main {
+    width: 90%;
+    margin: 10px auto;
+}
+.information {
+    background-color: #ffffff;
+}
 
+.information,
+.doc-info,
+.last-checkup,
+.allergies {
+    text-align: left;
+    grid-column: 1;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.main-content {
+    grid-row: 1/5;
+    grid-column: 2/7;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+}
+.dis-med {
+    display: flex;
+    flex-direction: row;
+}
+.diseases {
+    width: 60%;
+}
+.medication {
+    width: 40%;
+}
+.msg-dev {
+    display: flex;
+    flex-direction: row;
+}
+.messages {
+    width: 50%;
+}
+.devices {
+    width: 50%;
+}
 /*Footer */
 
 .footer {
