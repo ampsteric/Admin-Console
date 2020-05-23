@@ -51,6 +51,9 @@ body {
   box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
   display: flex;
 }
+span {
+  font-weight: 700;
+}
 .general {
   background-color: white;
 
