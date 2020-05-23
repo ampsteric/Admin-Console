@@ -48,7 +48,7 @@ body {
     width: 40px;
 }
 #tick {
-  margin-left: 40px;
+    margin-left: 40px;
 }
 .event img {
     height: 100px;
@@ -60,24 +60,24 @@ body {
     background-color: #edf0f5;
 }
 .check-stats {
-  display: flex;
-  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
-  margin-bottom: 10px;
+    display: flex;
+    box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+    margin-bottom: 10px;
 }
 .stats-col {
-  display: flex;
-  flex-direction: column;
-  margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
 }
 .stats-row {
-  display: flex;
-  margin: 20px 10px;
-  font-size: 20px;
+    display: flex;
+    margin: 20px 10px;
+    font-size: 20px;
 }
 .stats-row img {
-  height: 20px;
-  width: 20px;
-  margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
 }
 .grid {
     display: grid;
@@ -142,11 +142,19 @@ span {
 .doc-info,
 .last-checkup,
 .allergies {
-    text-align: left;
+    text-align: justify;
     grid-column: 1;
     background-color: #ffffff;
     padding: 10px;
 }
+.information span,
+.doc-info span,
+.last-checkup span,
+.allergies span {
+    text-align: left;
+    margin-right: 10px;
+}
+
 .main-content {
     grid-row: 1/5;
     grid-column: 2/7;
