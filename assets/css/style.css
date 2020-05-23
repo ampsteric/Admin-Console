@@ -1,12 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 600px;
+  margin-right: 10px;
+}
+.display img {
+  height: 100px;
+  width: 100px;
+}
+.icons img {
+  height: 40px;
+  width: 40px;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin: 20px 20px;
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  display: flex;
+}
+.general {
+  padding: 10px;
+  height: 80px;
+  width: 100px;
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
