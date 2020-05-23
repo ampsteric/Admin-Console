@@ -142,17 +142,23 @@ span {
 .doc-info,
 .last-checkup,
 .allergies {
-    text-align: justify;
+    text-align: left;
     grid-column: 1;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 20px;
 }
-.information span,
-.doc-info span,
-.last-checkup span,
-.allergies span {
+#table-information,
+#table-doc,
+#table-allergies {
+    width: 100%;
+}
+#table-information td,
+#table-doc td,
+#table-allergies td {
+    padding: 5px;
+}
+.align-left {
     text-align: left;
-    margin-right: 10px;
 }
 
 .main-content {
