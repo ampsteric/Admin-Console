@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.blue-back {
+  background-color: #b9d4f0;
+  margin-top: 10px;
+  font-size: 20px;
+}
 .danger {
   color: red;
 }
@@ -59,6 +64,7 @@ body {
 .name {
   color: rgb(93, 161, 232);
   font-size: 20px;
+  text-align: left;
 }
 .header p {
   background-color: white;
@@ -128,6 +134,21 @@ span {
 .dis-med {
   display: flex;
   flex-direction: row;
+}
+.appointments {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+}
+.upcoming {
+  display: flex;
+  margin: 40px 80px;
+}
+.upcoming img {
+  height: 200px;
+  width: 200px;
+  margin-left: 500px;
+  margin-top: 0px;
 }
 .diseases {
   width: 60%;
