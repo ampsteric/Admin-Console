@@ -5,7 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #edf0f5;
+}
 .container {
+  background-color: white;
+
   display: flex;
   box-sizing: border-box;
   padding-left: 600px;
@@ -24,21 +29,35 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+.name {
+  color: rgb(93, 161, 232);
+  font-size: 20px;
+}
+.header p {
+  background-color: white;
+  margin: 0;
+}
 .info {
+  background-color: white;
+
   display: flex;
   flex-direction: column;
 }
 
 .header {
+  background-color: white;
+
   margin: 20px 20px;
   box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
   display: flex;
 }
 .general {
+  background-color: white;
+
   padding: 10px;
   height: 80px;
   width: 100px;
-  box-shadow: 10px 10px 10px rgba(204, 196, 196, 0.87);
+  box-shadow: 3px 3px 3px rgba(204, 196, 196, 0.87);
   margin-left: 50px;
   display: flex;
   flex-direction: column;
