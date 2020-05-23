@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 * {
     margin: 0;
@@ -22,7 +22,7 @@
 }
 body {
     background-color: #edf0f5;
-    /* color: #5da1e8; */
+    font-family: 'Montserrat', sans-serif;
 }
 .display img {
     border-radius: 50%;
@@ -131,6 +131,7 @@ span {
 }
 .information {
     background-color: #ffffff;
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.08);
 }
 .last-checkup {
     display: flex;
@@ -139,7 +140,9 @@ span {
 .event {
     display: flex;
 }
-
+.underline {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
 .information,
 .doc-info,
 .last-checkup,
@@ -148,6 +151,7 @@ span {
     grid-column: 1;
     background-color: #ffffff;
     padding: 20px;
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.08);
 }
 #table-information,
 #table-doc,
@@ -242,12 +246,20 @@ span {
     margin: 10px auto;
     padding: 10px auto;
 }
+.col {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
 #table-immunizations {
     width: 80%;
 }
 #table-immunizations tr {
     margin: 10px auto;
     padding: 10px auto;
+}
+.syringe img {
+    max-width: 80px;
 }
 .msg-dev {
     display: flex;
@@ -261,6 +273,17 @@ span {
     box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.08);
     margin-right: 10px;
     padding: 20px;
+}
+.msg-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.msg-content p {
+    width: 80%;
+}
+.msg-content img {
+    max-width: 40px;
 }
 .devices {
     width: 50%;
@@ -276,6 +299,7 @@ span {
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.08);
 }
 
 .footer .card {
